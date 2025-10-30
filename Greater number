@@ -1,0 +1,25 @@
+package online.com;
+
+import java.util.Scanner;
+
+public class homework {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner (System.in);
+		System.out.println("Enter a first numbe");
+		int x=sc.nextInt();
+		System.out.println("Enter second number");
+		int y=sc.nextInt();
+		System.out.println("Enter third number");
+		int z=sc.nextInt();
+		if(x>=y && x>=z) {
+			System.out.println("X is grater number");
+		}
+		else if(y>=x && y>=z) {
+			System.out.println(" Y is grater number");
+		}
+		else {
+			System.out.println("Z is greter number");
+		}
+	}
+
+}
