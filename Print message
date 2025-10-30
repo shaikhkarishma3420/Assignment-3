@@ -1,0 +1,25 @@
+package online.com;
+
+import java.util.Scanner;
+
+public class homework3 {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner (System.in);
+		System.out.println("Enter a nmber");
+		int y=sc.nextInt();
+		if(y%3==0 && y%5==00) {
+			System.out.println("Mang and Apple");
+		}
+		else if(y%3==0) {
+			System.out.println("Mango");
+		}
+		else if(y%5==0) {
+			System.out.println("Apple");
+		}
+		else
+		{
+			System.out.println("Number is not valid");
+		}
+	}
+
+}
