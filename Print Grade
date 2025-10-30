@@ -1,0 +1,28 @@
+package online.com;
+
+import java.util.Scanner;
+
+public class ifelseladder {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner (System.in);
+		System.out.println("Enter a marks");
+		int marks=sc.nextInt();
+		if(marks>=75) {
+			System.out.println("A1 grade");
+		}
+		else if(marks>=65&&marks<75) {
+			System.out.println("A2 grade");
+		}
+		else if(marks>=55&&marks<65) {
+			System.out.println("B1 grade");
+		}
+		else if(marks>=45&&marks<55) {
+			System.out.println("B2 grade");
+		}
+		else {
+			System.out.println("Student is fail");
+		}
+		
+	}
+
+}
