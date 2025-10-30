@@ -1,0 +1,27 @@
+package online.com;
+
+import java.util.Scanner;
+
+public class homework2 {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner (System.in);
+		System.out.println("Enter a first numbe");
+		int x=sc.nextInt();
+		System.out.println("Enter second number");
+		int y=sc.nextInt();
+		System.out.println("Enter third number");
+		int z=sc.nextInt();
+		if(x<=y && x<=z) {
+			System.out.println("X is small number");
+		}
+		else if(y<=x && y<=z) {
+			System.out.println(" Y is small number");
+		}
+		else {
+			System.out.println("Z is small number");
+		}
+	}
+
+}
+
+
